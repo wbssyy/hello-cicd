@@ -1,0 +1,18 @@
+{
+  "name": "hello-cicd",
+  "version": "0.0.1",
+  "description": "for learning ci & cd",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "author": "syy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.4"
+  }
+}
