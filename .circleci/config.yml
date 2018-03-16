@@ -17,4 +17,5 @@ jobs:
       - run:
           name: login server
           command: 
+            ssh -o StrictHostKeyChecking=no 172.96.208.180
             ssh -v root@172.96.208.180 -p 26435
