@@ -13,4 +13,4 @@ jobs:
           command: date
       - run:
           name: See node version
-          command: node -version
+          command: node -v
