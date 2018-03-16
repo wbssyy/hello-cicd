@@ -15,10 +15,6 @@ jobs:
           name: Print the Current Time
           command: date
       - run:
-          name: set HostKeyChecking
-          command: 
-            ssh -o StrictHostKeyChecking=no 172.96.208.180
-      - run:
           name: login server
           command: 
-            ssh -v root@172.96.208.180 -p 26435
+            ssh -v -o StrictHostKeyChecking=no root@172.96.208.180 -p 26435
