@@ -15,4 +15,5 @@ jobs:
           name: login server
           command: 
             ssh -v root@172.96.208.180 -p 26435
+            yes
             ifconfig
