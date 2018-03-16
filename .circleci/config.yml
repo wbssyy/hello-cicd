@@ -17,7 +17,7 @@ jobs:
       - run:
           name: set HostKeyChecking
           command: 
-          ssh -o StrictHostKeyChecking=no 172.96.208.180
+            ssh -o StrictHostKeyChecking=no 172.96.208.180
       - run:
           name: login server
           command: 
